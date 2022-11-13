@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcualtor</title>
+    <link rel="stylesheet" href="calci.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="calculator">
+            <input type="text" placeholder="0" id="screen">
+            <button class="button triggers"></button>
+
+            <button onclick="Del()"></button>
+            <button class="button complex-stuff">sin</button>
+            <button class="button complex-stuff">tan</button>
+            <button class="button complex-stuff">log</button>
+            <button class="button complex-stuff">cos</button>
+            <button class="button complex-stuff">π</button>
+            <button class="button triggers">C</button>
+
+            <button class="button complex-stuff">√</button>
+            <button class="button complex-stuff">rad</button>
+            <button class="button complex-stuff">x ²</button>
+            <button onclick="cubed()"> x<sup>3 </button>
+            <button class="button triggers"><=</button>
+            <button class="button basic-stuff">/</button>
+
+            <button class="button numbers">7</button>
+            <button class="button numbers">8</button>
+            <button class="button numbers">9</button>
+            <button class="button complex-stuff">ln</button>
+            <button class="button complex-stuff">e</button>
+            <button class="button basic-stuff">*</button>
+
+            <button class="button numbers">4</button>
+            <button class="button numbers">5</button>
+            <button class="button numbers">6</button>
+            <button class="button complex-stuff">x !</button>
+            <button class="button complex-stuff">x^</button>
+            <button class="button basic-stuff">+</button>
+
+
+            <button class="button numbers">1</button>
+            <button class="button numbers">2</button>
+            <button class="button numbers">3</button>
+
+            <button class="button complex-stuff">π</button>
+            <button class="button complex-stuff">%</button>
+            <button class="button basic-stuff">-</button>
+
+            <button onclick="Display('.')">.</button>
+            <button onclick="Display('0')">0</button>
+
+            <button class="button basic-stuff">(</button>
+            <button class="button basic-stuff">)</button>
+
+
+
+
+            <button class="button triggers">=</button>
+            <!--<button onclick="calculator()" class="equal">=</button>-->
+        </div>
+    </div>
+
+    <script type="text/javascript" src="calci.js"></script>
+
+</body>
+
+</html>
