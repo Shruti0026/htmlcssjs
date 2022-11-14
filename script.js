@@ -25,7 +25,7 @@ Array.prototype.forEach.call(buttons, function(button) {
             button.textContent != "∘") {
             display.value += button.textContent;
         } else {
-            switch (buttons) {
+            switch (button.textContent) {
                 case '=':
                     if ((display.value).indexOf("^") > -1) {
                         var base = (display.value).slice(0, (display.value).indexOf("^"));
